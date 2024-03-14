@@ -1,5 +1,8 @@
+//const dotenv = require("dotenv");
+//dotenv.config();
 ("use strict");
 const stripe = require("stripe")(process.env.STRIPE_KEY);
+
 /**
  * order controller
  */
