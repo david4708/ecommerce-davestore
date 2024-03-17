@@ -20,8 +20,8 @@ const Cart = () => {
   };
 
   const stripePromise = loadStripe(
-    "pk_test_51OtDCcAHhntZuACAqYrXNdwxn9OyWarqjseqjSyEROKn0QQOUhQK9FrJhlGygPHGe21ke60bDuRO0fyoeBO8oN5E00LZM8Vplu"
-   // "pk_test_51OtDCcAHhntZuACAvYxSraQ0C5g46ry1Co6qKWk0tLq0dlMHu99fUdh6KSTxZ1Fy2xPjcAyucxo0RC8aOZIHLmLF00XJyqLbU4"
+    "pk_test_51OtDCcAHhntZuACAvYxSraQ0C5g46ry1Co6qKWk0tLq0dlMHu99fUdh6KSTxZ1Fy2xPjcAyucxo0RC8aOZIHLmLF00XJyqLbU4"
+    //pk_test_51OtDCcAHhntZuACAqYrXNdwxn9OyWarqjseqjSyEROKn0QQOUhQK9FrJhlGygPHGe21ke60bDuRO0fyoeBO8oN5E00LZM8Vplu"
   );
   const handlePayment = async () => {
     try {
