@@ -28,17 +28,17 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
               },
               unit_amount: item.price * 100,
             },
-            quantity: item.quantity,
+            quantity: product.quantity,
           };
         })
       );
       const session = await stripe.checkout.sessions.create({
         mode: "payment",
-        success_url: process.env.CLIENT_URL + "?success=true",
-        cancel_url: process.env.CLIENT_URL + "?canceled=false",
+        //success_url: process.env.CLIENT_URL + "?success=true",
+        //cancel_url: process.env.CLIENT_URL + "?canceled=false",
 
-        /* success_url: `${process.env.CLIENT_URL}?success=true`,
-        cancel_url: `${process.env.CLIENT_URL}?canceled=true`, */
+        success_url: `${process.env.CLIENT_URL}?success=true`,
+        cancel_url: `${process.env.CLIENT_URL}?success=true`,
         line_items: lineItems,
         shipping_address_collection: { allowed_countries: ["US", "CA"] },
         payment_method_types: ["card"],
