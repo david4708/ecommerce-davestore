@@ -36,17 +36,17 @@ const Navbar = () => {
           </div>
         </div>
         <div className="center">
-          <Link className ="link" to="/">DAVESTORE</Link>
+          <Link className ="link" to="/">SINGLESTYLE</Link>
         </div>
         <div className="right">
           <div className="item">
             <Link className ="link" to="/">Homepage</Link>
           </div>
           <div className="item">
-            <Link className ="link" to="/">About</Link>
+            <Link className ="link" to="/about">About</Link>
           </div>
           <div className="item">
-            <Link className ="link" to="/">Contact</Link>
+            <Link className ="link" to="/contact">Contact</Link>
           </div>
           <div className="item">
             <Link className ="link" to="/">Stores</Link>

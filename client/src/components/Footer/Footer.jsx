@@ -24,25 +24,23 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <span>
-            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
-            ut labore etdolore.
+            iniciamos en abril de 2024 con la promocion de prendas informal y deportiva.
+            Apoyamos emprendedores creativos q se dedican a la innovacion
+            ofreciendo variedad en telas, tecnologia, confort y calidad.
+             
           </span>
         </div>
         <div className="item">
           <h1>Contact</h1>
           <span>
-            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
-            ut labore etdolore.
+          sport@singlestyle.com
+            
           </span>
         </div>
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">davestore</span>
+          <span className="logo">singlestyle</span>
           <span className="copyright">
             © Copyright 2023. All Rights Reserved
           </span>
